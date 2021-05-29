@@ -28,16 +28,16 @@ public:
   }
 };
 
-int main() {
-  Solution s = Solution();
-  vector<vector<int>> cases;
-  cases.push_back({4, 14, 2});
-  cases.push_back({4, 14, 4});
-  cases.push_back({11114, 14, 4});
-  cases.push_back({12345678, 14, 4});
-  for (vector<int> c : cases) {
-    int res = s.totalHammingDistance(c);
-    cout << res << endl;
-  }
-  return 0;
-}
+//int main() {
+//  Solution s = Solution();
+//  vector<vector<int>> cases;
+//  cases.push_back({4, 14, 2});
+//  cases.push_back({4, 14, 4});
+//  cases.push_back({11114, 14, 4});
+//  cases.push_back({12345678, 14, 4});
+//  for (vector<int> c : cases) {
+//    int res = s.totalHammingDistance(c);
+//    cout << res << endl;
+//  }
+//  return 0;
+//}
