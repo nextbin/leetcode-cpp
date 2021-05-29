@@ -64,5 +64,3 @@ int test1725() {
   }
   return 0;
 }
-
-int main() { return test1725(); }
