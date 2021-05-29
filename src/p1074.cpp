@@ -46,10 +46,11 @@ public:
               val -= dp[x2][y1 - 1];
             }
             if (x1 > 0 && y1 > 0) {
-              val +=  dp[x1 - 1][y1 - 1];
+              val += dp[x1 - 1][y1 - 1];
             }
             if (val == target) {
-//              printf("match: x1: %d, y1: %d, x2: %d, y2: %d\n", x1, y1, x2, y2);
+              //              printf("match: x1: %d, y1: %d, x2: %d, y2: %d\n",
+              //              x1, y1, x2, y2);
               res++;
             }
           }
@@ -60,7 +61,7 @@ public:
   }
 };
 
-int main() {
+int test1074() {
   vector<vector<vector<int>>> cases = {{
                                            {0, 1, 0},
                                            {1, 1, 1},
